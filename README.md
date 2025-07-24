@@ -9,12 +9,10 @@
 
 ### How to get
 
-Execute a command inside a container
-
 ```sh
-runner@dns-server:~$ docker exec -it bind9 sh -c "tsig-keygen -a hmac-sha256"
+docker run --rm -it --entrypoint tsig-keygen internetsystemsconsortium/bind9:9.20 -a hmac-sha256
 # key "tsig-key" {
 #         algorithm hmac-sha256;
-#         secret "8+WxElMp7R28wwPg7J4tekaLLhBzknipZQjKhKwuru0=";
+#         secret "GK3CEKSn6XCjUwOXS5DBoLg9pjlARinXCUYaQw50gGg=";
 # };
 ```

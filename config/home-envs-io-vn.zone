@@ -8,4 +8,4 @@ home.envs.io.vn.    86400       IN      NS      cat.ns.home.envs.io.vn.
 ;; A Records
 fox.ns.home.envs.io.vn.     1       IN      A       192.168.100.2
 cat.ns.home.envs.io.vn.     1       IN      A       192.168.100.2
-test.home.envs.io.vn.       1       IN      A       192.168.100.3
+
